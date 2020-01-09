@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78315128-220d-4864-be38-55f19b5665f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/CColor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ghaliwang/chatcolor/ChatColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ghaliwang/chatcolor/ChatColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Commands/CColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Commands/CColor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +84,21 @@
       <option name="presentableId" value="Default" />
       <updated>1578556199321</updated>
     </task>
+    <task id="LOCAL-00001" summary="implement command">
+      <created>1578557842351</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578557842351</updated>
+    </task>
+    <task id="LOCAL-00002" summary="nambah gui">
+      <created>1578558625482</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578558625482</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,5 +111,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implement command" />
+    <MESSAGE value="nambah gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="nambah gui" />
   </component>
 </project>

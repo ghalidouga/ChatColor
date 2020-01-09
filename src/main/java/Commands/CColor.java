@@ -10,6 +10,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryType;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
+
+import java.util.ArrayList;
 
 public class CColor implements CommandExecutor {
 
@@ -22,6 +25,20 @@ public class CColor implements CommandExecutor {
             ItemStack red = new ItemStack(Material.RED_CARPET); // list item di gui
             ItemStack blue = new ItemStack(Material.BLUE_CARPET);
             ItemStack yellow = new ItemStack(Material.YELLOW_CARPET);
+
+            //Meta untuk deskripsi
+            ItemMeta red_meta = red.getItemMeta();
+            red_meta.setDisplayName(ChatColor.RED + "Change to RED");
+            red.setItemMeta(red_meta);
+
+            ItemMeta blue_meta = blue.getItemMeta();
+            blue_meta.setDisplayName(ChatColor.BLUE + "Change to BLUE");
+            blue.setItemMeta(blue_meta);
+
+            ItemMeta yellow_meta = yellow.getItemMeta();
+            yellow_meta.setDisplayName(ChatColor.YELLOW + "Change to YELLOW");
+            yellow.setItemMeta(yellow_meta);
+
 
             ItemStack[] color_items = {red, blue, yellow}; //array
             CCgui.setContents(color_items); // masukin array ke gui
