@@ -1,0 +1,5 @@
+name: ChatColor
+version: ${project.version}
+main: ghaliwang.chatcolor.ChatColor
+api-version: 1.13
+description: chat color for wadeeeya
